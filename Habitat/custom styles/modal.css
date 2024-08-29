@@ -1,0 +1,152 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #95a5a6;
+  color: white;
+  font-size: 11px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  display: flex;
+  padding: 2px 16px;
+  background-color: #95a5a6;
+  color: white;
+  justify-content: end;
+}
+.modal-body label {
+  font-weight: bold;
+}
+#email {
+  margin: 20px;
+  width: 60%;
+  border-radius: 6px;
+  border: 2px solid #95a5a6;
+  outline: none;
+  box-shadow: none;
+  padding: 5px 10px;
+  content: "jhondoe@gmail.com";
+}
+
+#email:focus {
+  border: 2px solid #c0392b;
+  outline: none;
+  box-shadow: none;
+}
+
+#subBtn {
+  width: 100px;
+  margin: 10px 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background: #c0392b;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+#cancelBtn {
+  width: 100px;
+  margin: 10px 5px;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  background: grey;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#subBtn:hover,
+#cancelBtn:hover {
+  background: black;
+}
+@media screen and (max-width: 490px) {
+  .modal-content {
+    width: 60%;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .modal-content {
+    width: 75%;
+  }
+  
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .modal-content {
+    width: 75%;
+  }
+  
+}

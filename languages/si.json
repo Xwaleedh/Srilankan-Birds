@@ -1,0 +1,50 @@
+{
+    "home_link": "මුල් පිටුව",
+    "features_link": "විශේෂාංග",
+    "release_link": "නිකුත් කරන දිනය",
+    "about_link": "අපේ පාසල ගැන",
+    "contact_link": "අමතන්න",
+
+    "modal_header_text": "අපගේ පුවත් පත්‍රිකාවට දායක වන්න",
+    "subscribe": "දායක වන්න",
+    "cancel": "අවලංගු කරන්න",
+    "ltxt1": "විද්‍යා",
+    "ltxt2": "විද්‍යාලය",
+    "subscribe_us": "Subscribe to Us",
+    "dynamic_text": "Dynamic Text",
+    "features": "Features",
+    "release_date": "Release Date",
+    "release_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+    "about_our_school": "About Our School",
+    "contact_us": "Contact Us",
+    "contact_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.",
+    "feature_cards": [
+      {
+        "title": "Feature 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Feature 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Feature 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ],
+    "about_cards": [
+      {
+        "title": "Card 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Card 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "title": "Card 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ]
+  }
+  
